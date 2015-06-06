@@ -18,3 +18,9 @@ board::R[100;50]
 .z.ws:{
     neg[.z.w] renderMatrix board
   }
+
+// use .h.hp with a list of strings
+// to render a valid HTTP response
+/.z.ph:{
+/    .h.hp enlist renderMatrix board
+/  }
