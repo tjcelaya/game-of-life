@@ -1,5 +1,5 @@
-![Screenshot](http://www.github.com/tjcelaya/game-of-life/blob/master/game-of-life-screenshot.gif)
+![Screenshot](game-of-life-screenshot.gif?raw=true)
 
     q life.q -p 5000
 
-[localhost:5000](http://localhost:5000)
+[localhost:5000/index.html](http://localhost:5000/index.html)
