@@ -6,7 +6,7 @@
 
 You can tweak the rendering speed by changing `\t` and the size by changing the values passed to `R` when initializing board.
 
-Compare `life` with these alternate implementations found at [Game of Life in (one line of) q](https://thesweeheng.wordpress.com/2009/02/10/game-of-life-in-one-line-of-q/)
+Compare [`life`](life.q#L8) with these alternate implementations found at [Game of Life in (one line of) q](https://thesweeheng.wordpress.com/2009/02/10/game-of-life-in-one-line-of-q/)
 
     life:{any(1b;x)&'3 4=\:sum sum f(f:rotate'\:[1 0 -1])x} / by Aaron Davies
     life:{any(1;x)&3 4=\:2 sum/2(1 0 -1 rotate'\:)/x}       / by Attila Vrabecz

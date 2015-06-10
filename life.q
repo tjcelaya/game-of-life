@@ -2,7 +2,7 @@
 system "S ",string[neg`int$.z.t mod 1000]
 
 R:{
-  p:x*y; inverseChance: floor avg x;y;;
+  p:x*y; inverseChance: floor avg x;y;
   1 = ((y,x) # (neg p) ? p) mod inverseChance }
 
 life:{
