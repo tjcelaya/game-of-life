@@ -2,8 +2,9 @@
 system "S ",string[neg`int$.z.t mod 1000]
 
 R:{
-  p:x*y; inverseChance: floor avg x;y;
-  1 = ((y,x) # (neg p) ? p) mod inverseChance }
+  p:x*y;
+  inverseChanceOfLife: floor avg x;y;
+  1 = ((y,x) # (neg p) ? p) mod inverseChanceOfLife }
 
 life:{
   {(2=x) | (3=x) & x}[sum 1 _ raze (0 -1 1) rotate/:\: (0 -1 1) rotate/:\: x] }
